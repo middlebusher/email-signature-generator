@@ -387,7 +387,6 @@
     display: flex;
     gap: 0;
     border-bottom: 1px solid var(--rule);
-    margin-top: 8px;
   }
   .tab {
     background: none;
@@ -591,13 +590,13 @@
       </div>
     </div>
 
-    <div class="preview-frame" id="previewFrame">
-      <!-- Live signature rendered here -->
-    </div>
-
     <div class="tabs">
       <button class="tab active" data-view="preview">Preview</button>
       <button class="tab" data-view="html">HTML Source</button>
+    </div>
+
+    <div class="preview-frame" id="previewFrame">
+      <!-- Live signature rendered here -->
     </div>
     <div class="code-output hidden" id="codeOutput"></div>
 
